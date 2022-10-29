@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: teal;
+}
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 0px rgb(0, 0,0,0.7);
+}
+.genders{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+    text-align: start;
+}
+.color{
+    width: 10% !important;
+}
+.btn{
+    background-color: teal;
+    color: white;
+    padding: 16px;
+    border: 10px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    opacity: 0.8;
+}
+.success-container{
+    position: relative;
+    width: 320px;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.upper-side{
+    background-color: rgb(89, 200, 70);
+    padding: 2em;
+    display: block;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-transform: uppercase;
+}
+.lower-side{
+    padding: 2em 2em 5em 2em;
+    background-color: #fff;
+    display: block;
+    color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.success-btn{
+    padding: 8px;
+    border-radius: 30px;
+    width: 50%;
+    background-color: rgb(89, 200, 70);
+    border: none;
+    box-shadow: 2px 2px 5px 0;
+}
+.text-btn{
+    color: white;
+    text-decoration: none;
+}
+img{
+    height: 90px;
+}
