@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(4, 0, 12);
+}
+.grid{
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 70vh;
+    width: 40rem;
+    margin: auto;
+    margin-top: 30px;
+}
+.orange{
+    background-color: rgb(249, 80, 5);
+    grid-column: span 2;
+}
+.yellow{
+    background-color: rgb(249, 228, 5);
+}
+.green{
+    background-color: green;
+    grid-row: span 2;
+}
+.blue{
+    background-color: rgb(0, 174, 255);
+    grid-column: span 2;
+}
